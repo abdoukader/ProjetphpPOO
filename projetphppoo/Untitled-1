@@ -1,0 +1,15 @@
+/* $libelle = $etudiant->getLibelle();
+            $reqIdTtype = $bdd->prepare("SELECT id_type FROM types WHERE libelle='$libelle'");
+            $reqIdTtype->execute();
+            $inserIdType = $reqIdTtype->fetch();
+            $matricule = $etudiant->getMatricule();
+            $reqMati = $bdd->prepare("SELECT id_etudiant FROM etudiants WHERE matricule='$matricule'");
+            $reqMati->execute();
+            $inserIdmat = $reqMati->fetch();
+            $requet1 = $bdd->prepare("INSERT INTO boursier(id_etudiant,id_type)VALUES (:id_etudiant,:id_type)");
+            $requet1->bindValue(':id_type', $inserIdType['id_type'], PDO::PARAM_INT);
+            $requet1->bindValue(':id_etudiant', $inserIdmat['id_etudiant'], PDO::PARAM_INT);
+            $lebon=$requet1->execute();
+            if ($lebon) {
+                echo "l'etudiant boursier a ete bien inscrit";
+            }*/

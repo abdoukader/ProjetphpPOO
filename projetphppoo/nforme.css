@@ -1,0 +1,26 @@
+.signup-image{
+    
+    border:solid 1px chocolate;
+}
+fieldset{
+    border:solid 1px chocolate;
+}
+
+nav {background: #22b4f8;width: 100%;}
+ul {padding: 0;margin: 10px auto;width: 100%;}
+ul li {list-style: none;display: inline-block;padding:20px;margin-left: 10px;margin-right: 10px;}
+ul li:hover {background: #113e9ed8;color:#316d00}
+ul li a {color: #fff;text-decoration: none;}
+#boutton{
+    margin-left: 7%;  
+    margin-top: 60%;  
+}
+.main{
+ 
+    background-image: url(okine.jpg);
+   
+}
+h1{
+    text-align: center;
+    line-height: 5px;
+}
